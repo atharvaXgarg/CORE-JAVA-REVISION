@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/CORE/File Exception Handling/File Exception Handling.iml" filepath="$PROJECT_DIR$/CORE/File Exception Handling/File Exception Handling.iml" />
       <module fileurl="file://$PROJECT_DIR$/CORE/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/CORE/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/CORE/MATH/MATH.iml" filepath="$PROJECT_DIR$/CORE/MATH/MATH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CORE/Multithreading/Multithreading.iml" filepath="$PROJECT_DIR$/CORE/Multithreading/Multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/CORE/Strings/Strings.iml" filepath="$PROJECT_DIR$/CORE/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/CORE/arrays/arrays.iml" filepath="$PROJECT_DIR$/CORE/arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/CORE/collection framework/collection framework.iml" filepath="$PROJECT_DIR$/CORE/collection framework/collection framework.iml" />

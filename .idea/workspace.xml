@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e1bf5b-1a5c-4e04-b7bf-735fa73b9b40" name="Changes" comment="Collections class, queue interface , set interface">
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/Comparator/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/Enums/DaysOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/Enums/TestingDaysOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/Enums/TestingEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/Enums/TrafficLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/Generic_class/Generic_Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/List/FreqCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/List/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/List/SwapArrListMembers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/Map_Interface/map_Inter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CORE/collection framework/src/VarArgs/varArgs2.java" afterDir="false" />
+    <list default="true" id="70e1bf5b-1a5c-4e04-b7bf-735fa73b9b40" name="Changes" comment="enums , maps , generic classes">
+      <change afterPath="$PROJECT_DIR$/CORE/Inheritance/src/Threading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/Ex_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/Ex_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/JoinMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/NeedOfMultiThreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/Road.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/SleepMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/Synchronized_keyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/Way1Multi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/Way2Multi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CORE/Multithreading/src/OldWayOfMultiThreading/priority_Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,9 @@
     &quot;accountId&quot;: &quot;2745030e-6a8c-490f-9cf8-0cf8bdc8cc6c&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-26.0.1/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -81,11 +85,15 @@
     "Application.DeletionOfElement.executor": "Run",
     "Application.DieGame.executor": "Run",
     "Application.EqualsAndHashcodeTest.executor": "Run",
+    "Application.Ex_1.executor": "Run",
+    "Application.Ex_2.executor": "Run",
     "Application.Exception_Stack.executor": "Run",
+    "Application.Excercise_1.executor": "Run",
     "Application.Finally_block.executor": "Run",
     "Application.FreqCount.executor": "Run",
     "Application.HetrogeneousArray.executor": "Run",
     "Application.In1.executor": "Run",
+    "Application.JoinMethod.executor": "Run",
     "Application.Method_Overload.executor": "Run",
     "Application.MotorCycle.executor": "Run",
     "Application.NumberOccurrence.executor": "Run",
@@ -94,17 +102,22 @@
     "Application.Read_From_file.executor": "Run",
     "Application.Rec_string_palindrome.executor": "Run",
     "Application.Recurse.executor": "Run",
+    "Application.Road.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.SwapArrListMembers.executor": "Run",
+    "Application.Synchronized_keyword.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestClass.executor": "Run",
     "Application.TestDog.executor": "Run",
+    "Application.TestSleep.executor": "Run",
+    "Application.TestState.executor": "Run",
     "Application.TestingDaysOfWeek.executor": "Run",
     "Application.ThrowsAndThrow.executor": "Run",
     "Application.TryCatchBlock.executor": "Run",
     "Application.TwoWheeler.executor": "Run",
     "Application.UserInput.executor": "Run",
+    "Application.Way2Multi.executor": "Run",
     "Application.Wc1.executor": "Run",
     "Application.Writing_Best_way.executor": "Run",
     "Application.Writing_To_File.executor": "Run",
@@ -116,6 +129,8 @@
     "Application.p1.executor": "Run",
     "Application.passByReference.executor": "Run",
     "Application.passByValue.executor": "Run",
+    "Application.priority_Thread.executor": "Run",
+    "Application.sequence.executor": "Run",
     "Application.studentTest.executor": "Run",
     "Application.test.executor": "Run",
     "Application.testBox.executor": "Run",
@@ -209,7 +224,14 @@
       <workItem from="1791281029809" duration="7263000" />
       <workItem from="1791347266734" duration="7219000" />
       <workItem from="1791370315522" duration="918000" />
-      <workItem from="1791415469572" duration="4532000" />
+      <workItem from="1791415469572" duration="4584000" />
+      <workItem from="1791445819622" duration="431000" />
+      <workItem from="1791453128720" duration="3747000" />
+      <workItem from="1791500247685" duration="2658000" />
+      <workItem from="1791553699789" duration="3570000" />
+      <workItem from="1791608820620" duration="5906000" />
+      <workItem from="1791621703423" duration="668000" />
+      <workItem from="1791625436337" duration="2635000" />
     </task>
     <task id="LOCAL-00001" summary="restructured">
       <option name="closed" value="true" />
@@ -339,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791359614614</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="enums , maps , generic classes">
+      <option name="closed" value="true" />
+      <created>1791421383281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1791421383281</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +402,8 @@
     <MESSAGE value="exception handling" />
     <MESSAGE value="exception handling, file handling" />
     <MESSAGE value="Collections class, queue interface , set interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections class, queue interface , set interface" />
+    <MESSAGE value="enums , maps , generic classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums , maps , generic classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

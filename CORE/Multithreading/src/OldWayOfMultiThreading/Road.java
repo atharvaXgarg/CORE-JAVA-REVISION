@@ -6,27 +6,27 @@ public class Road {
         TrafficLightThread yellow = new TrafficLightThread(TrafficColor.YELLOW);
         TrafficLightThread green = new TrafficLightThread(TrafficColor.GREEN);
 
-        green.start();
-        green.join();
+        red.start();
+        red.join();
         yellow.start();
         yellow.join();
-        red.start();
-
+        green.start();
+        green.join();
     }
 }
  enum TrafficColor {
-    RED(9000),
+    RED(12000),
     YELLOW(1000),
     GREEN(3000);
 
-    private final int onTimeInMills;
+    private final int onTimeInMilli;
 
-    public int getOnTimeInMills() {
-        return onTimeInMills;
+    public int getOnTimeInMilli() {
+        return onTimeInMilli;
     }
 
-    TrafficColor(int onTimeInMills) {
-        this.onTimeInMills = onTimeInMills;
+    TrafficColor(int onTimeInMilli) {
+        this.onTimeInMilli = onTimeInMilli;
     }
 }
 class TrafficLightThread extends Thread {
@@ -41,7 +41,7 @@ class TrafficLightThread extends Thread {
     public void run() {
         System.out.printf("%s active\n", color);
         try {
-            Thread.sleep(color.getOnTimeInMills());
+            Thread.sleep(color.getOnTimeInMilli());
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
